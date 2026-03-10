@@ -1,10 +1,14 @@
 # Proiect-PIU
-#Aplicatie pentru rezervarea locurilor la teatru/cinema
-#*meniu de alegere a locatiei 
-#*meniu alegere film/spectacol valabil la locatia aleasa
-#*meniu de alegere a locului
-#*vizualizare locuri ocupate si locuri libere
-#*vizualizare prezutri pentru fiecare linie de locuri
-#*rezervare loc
-#*clear locuri 
-#*logs
+
+*Aplicație pentru rezervarea locurilor la teatru/cinema*
+
+
+
+* Meniu de alegere a locației
+* Meniu alegere film/spectacol valabil la locația aleasă
+* Meniu de alegere a locului
+* Vizualizare locuri ocupate și locuri libere
+* Vizualizare prețuri pentru fiecare linie de locuri
+* Rezervare loc
+* Clear locuri
+* Logs
