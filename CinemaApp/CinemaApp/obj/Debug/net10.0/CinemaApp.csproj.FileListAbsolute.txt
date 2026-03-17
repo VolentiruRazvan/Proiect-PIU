@@ -1,0 +1,6 @@
+C:\Users\volen\source\repos\CinemaApp\CinemaApp\obj\Debug\net10.0\CinemaApp.Properties.Resources.resources
+C:\Users\volen\source\repos\CinemaApp\CinemaApp\obj\Debug\net10.0\CinemaApp.csproj.GenerateResource.cache
+C:\Users\volen\source\repos\CinemaApp\CinemaApp\obj\Debug\net10.0\CinemaApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\volen\source\repos\CinemaApp\CinemaApp\obj\Debug\net10.0\CinemaApp.AssemblyInfoInputs.cache
+C:\Users\volen\source\repos\CinemaApp\CinemaApp\obj\Debug\net10.0\CinemaApp.AssemblyInfo.cs
+C:\Users\volen\source\repos\CinemaApp\CinemaApp\obj\Debug\net10.0\CinemaApp.csproj.CoreCompileInputs.cache
