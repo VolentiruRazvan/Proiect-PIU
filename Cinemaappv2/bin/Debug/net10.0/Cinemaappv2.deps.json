@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "Cinemaappv2/1.0.0": {
+        "runtime": {
+          "Cinemaappv2.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Cinemaappv2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

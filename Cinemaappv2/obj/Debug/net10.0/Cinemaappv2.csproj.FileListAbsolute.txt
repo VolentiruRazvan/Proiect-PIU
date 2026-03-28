@@ -1,0 +1,14 @@
+C:\Users\volen\source\repos\Cinemaappv2\Cinemaappv2\bin\Debug\net10.0\Cinemaappv2.exe
+C:\Users\volen\source\repos\Cinemaappv2\Cinemaappv2\bin\Debug\net10.0\Cinemaappv2.deps.json
+C:\Users\volen\source\repos\Cinemaappv2\Cinemaappv2\bin\Debug\net10.0\Cinemaappv2.runtimeconfig.json
+C:\Users\volen\source\repos\Cinemaappv2\Cinemaappv2\bin\Debug\net10.0\Cinemaappv2.dll
+C:\Users\volen\source\repos\Cinemaappv2\Cinemaappv2\bin\Debug\net10.0\Cinemaappv2.pdb
+C:\Users\volen\source\repos\Cinemaappv2\Cinemaappv2\obj\Debug\net10.0\Cinemaappv2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\volen\source\repos\Cinemaappv2\Cinemaappv2\obj\Debug\net10.0\Cinemaappv2.AssemblyInfoInputs.cache
+C:\Users\volen\source\repos\Cinemaappv2\Cinemaappv2\obj\Debug\net10.0\Cinemaappv2.AssemblyInfo.cs
+C:\Users\volen\source\repos\Cinemaappv2\Cinemaappv2\obj\Debug\net10.0\Cinemaappv2.csproj.CoreCompileInputs.cache
+C:\Users\volen\source\repos\Cinemaappv2\Cinemaappv2\obj\Debug\net10.0\Cinemaappv2.dll
+C:\Users\volen\source\repos\Cinemaappv2\Cinemaappv2\obj\Debug\net10.0\refint\Cinemaappv2.dll
+C:\Users\volen\source\repos\Cinemaappv2\Cinemaappv2\obj\Debug\net10.0\Cinemaappv2.pdb
+C:\Users\volen\source\repos\Cinemaappv2\Cinemaappv2\obj\Debug\net10.0\Cinemaappv2.genruntimeconfig.cache
+C:\Users\volen\source\repos\Cinemaappv2\Cinemaappv2\obj\Debug\net10.0\ref\Cinemaappv2.dll
