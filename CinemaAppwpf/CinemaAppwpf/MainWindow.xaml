@@ -1,0 +1,64 @@
+﻿<Window x:Class="CinemaAppwpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Sistem Rezervari - Interfata Dinamica" Height="500" Width="750" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <!-- ECRAN 1: Meniul Principal -->
+        <Grid Name="EcranPrincipal" Visibility="Visible">
+            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                <TextBlock Text="BUN VENIT LA SISTEMUL DE REZERVARI" FontSize="26" FontWeight="Bold" Margin="0,0,0,40" TextAlignment="Center"/>
+                <Button Name="btnStart" Content="Alege Locatia" FontSize="20" Height="60" Width="250" Click="btnStart_Click"/>
+            </StackPanel>
+        </Grid>
+
+        <!-- ECRAN 2: Alegere Locatie -->
+        <Grid Name="EcranLocatii" Visibility="Hidden" Background="#F4F4F4">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <TextBlock Grid.Row="0" Text="ALEGE O LOCATIE" FontSize="22" FontWeight="Bold" HorizontalAlignment="Center" Margin="10"/>
+
+            <!-- Aici se vor genera butoanele cu locatii din C# -->
+            <WrapPanel Name="panelLocatii" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+
+            <Button Name="btnInapoiLaPrincipal" Grid.Row="2" Content="INAPOI" Width="100" Height="40" HorizontalAlignment="Left" Margin="10" Click="btnInapoiLaPrincipal_Click"/>
+        </Grid>
+
+        <!-- ECRAN 3: Alegere Spectacol -->
+        <Grid Name="EcranSpectacole" Visibility="Hidden" Background="#EAEAF4">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <TextBlock Name="txtTitluSpectacole" Grid.Row="0" Text="ALEGE UN SPECTACOL" FontSize="22" FontWeight="Bold" HorizontalAlignment="Center" Margin="10"/>
+
+            <!-- Aici se vor genera butoanele cu spectacole din C# -->
+            <WrapPanel Name="panelSpectacole" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+
+            <Button Name="btnInapoiLaLocatii" Grid.Row="2" Content="INAPOI" Width="100" Height="40" HorizontalAlignment="Left" Margin="10" Click="btnInapoiLaLocatii_Click"/>
+        </Grid>
+
+        <!-- ECRAN 4: Alegere Locuri (Matricea) -->
+        <Grid Name="EcranLocuri" Visibility="Hidden" Background="#FFF0F0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <TextBlock Name="txtTitluLocuri" Grid.Row="0" Text="SCENA" FontSize="20" FontWeight="Bold" HorizontalAlignment="Center" Margin="10" Background="Black" Foreground="White" Width="400" TextAlignment="Center"/>
+
+            <!-- UniformGrid este perfect pentru matrice, il populam din C# -->
+            <Border Grid.Row="1" BorderBrush="Gray" BorderThickness="2" HorizontalAlignment="Center" VerticalAlignment="Center" Padding="10" Background="LightGray">
+                <UniformGrid Name="gridScaune"/>
+            </Border>
+
+            <StackPanel Grid.Row="2" Orientation="Horizontal" Margin="10">
+                <Button Name="btnInapoiLaSpectacole" Content="INAPOI" Width="100" Height="40" Click="btnInapoiLaSpectacole_Click"/>
+                <TextBlock Name="txtPretRezervare" FontSize="20" FontWeight="Bold" VerticalAlignment="Center" Foreground="DarkRed" Margin="30,0,0,0"/>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Window>
